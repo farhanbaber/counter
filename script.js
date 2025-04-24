@@ -6,9 +6,10 @@ function addNum() {
 }
 function removeNum() {
     let removeNum = parseInt(para.innerText);
-    para.innerText = removeNum -1 
+    if(removeNum > 0){    para.innerText = removeNum -1
+    }
 }
 function restart() {
     para.innerText = 0;
-    
+  
 }
