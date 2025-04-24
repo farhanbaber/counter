@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/pngtree-aesthetic-appeal-of-roughly-textured-wallpaper-in-wall-construction-image_13833908.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+
+}
+.under-con{
+    text-align: center;
+    color: rgb(10, 10, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+button{
+    padding: 14px;
+    margin: 12px;
+    border-radius: 5px;
+    border: 0cap;
+    background: transparent;
+    border: 2px solid black;
+    backdrop-filter: blur(80px);
+    transition: 0.5s;
+
+}
+button:active{
+    scale: .9;
+    filter: brightness(50%);
+
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 0.5s;
+}
+@media (max-width: 600px) {
+    .container {
+        width: 95vw;
+        min-height: 60vh;
+        margin: 0.5rem;
+    }
+    .under-con h1 {
+        font-size: clamp(1.2rem, 4vw, 1.5rem);
+    }
+    .under-con p {
+        font-size: clamp(1.5rem, 6vw, 2rem);
+    }
+    .btn-div {
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        width: 80%;
+        max-width: 200px;
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        width: 98vw;
+        padding: 0.5rem;
+    }
+    .under-con h1 {
+        font-size: 1rem;
+    }
+    .under-con p {
+        font-size: 1.5rem;
+    }
+    button {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+}
+@media (max-height: 500px) {
+    .container {
+        min-height: 80vh;
+    }
+    .under-con {
+        padding: 0.5rem;
+    }
+    .btn-div {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+    button {
+        min-width: 80px;
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+}
