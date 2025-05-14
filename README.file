@@ -1,0 +1,33 @@
+🔢 Counter App
+
+A simple web-based counter application built using HTML, CSS, and JavaScript. This app allows users to increment, decrement, and reset a counter with the click of a button.
+
+🚀 Features
+
+- Increment the counter
+- Decrement the counter
+- Reset the counter to zero
+- Responsive design
+- Clean and minimal UI
+
+👨‍💻 How It Works
+
+1. Open the app in your browser.
+2. Click on the **"+"**, **"-"**, or **"Reset"** button.
+3. The counter value will update in real time.
+
+🛠️ Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+ 📂 Folder Structure
+
+`bash
+counter-app/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.file
